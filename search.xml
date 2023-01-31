@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>“我的第一篇文章”</title>
+      <link href="/2023/01/19/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E2%80%9D/"/>
+      <url>/2023/01/19/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E2%80%9D/</url>
+      
+        <content type="html"><![CDATA[<h2 id="shangyang"><a href="#shangyang" class="headerlink" title="shangyang"></a>shangyang</h2><p>试水</p><p>试水</p><p>试水</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/01/18/hello-world/"/>
+      <url>/2023/01/18/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/package.json"/>
+      <url>/package.json</url>
+      
+        <content type="html"><![CDATA[{"dependencies":{"hexo-abbrlink":"^2.2.1"}}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>music</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>movies</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/node_modules/hexo-abbrlink/index.js"/>
+      <url>/node_modules/hexo-abbrlink/index.js</url>
+      
+        <content type="html"><![CDATA['use strict';var hexo = hexo || {};hexo.extend.filter.register('before_post_render', require('./lib/logic'), 15);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/node_modules/hexo-abbrlink/README.html"/>
+      <url>/node_modules/hexo-abbrlink/README.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="hexo-abbrlink"><a href="#hexo-abbrlink" class="headerlink" title="hexo-abbrlink"></a>hexo-abbrlink</h1><p><a href="https://www.npmjs.com/package/hexo-abbrlink"><img src="https://img.shields.io/npm/dm/hexo-abbrlink.svg" alt="npm"></a><br><a href="https://www.npmjs.com/package/hexo-abbrlink"><img src="https://img.shields.io/npm/dy/hexo-abbrlink.svg" alt="npm"></a><br><a href="https://www.npmjs.com/package/hexo-abbrlink"><img src="https://img.shields.io/npm/dt/hexo-abbrlink.svg" alt="npm"></a></p><p>A <a href="https://hexo.io/plugins/">Hexo plugin</a> to generate static post link based on post titles.</p><h2 id="How-to-install"><a href="#How-to-install" class="headerlink" title="How to install"></a>How to install</h2><p>Add plugin to Hexo:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure><p>Modify permalink in config.yml file:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">permalink: posts/:abbrlink/</span><br></pre></td></tr></table></figure><p>There are two settings:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">alg -- Algorithm (currently support crc16 and crc32, which crc16 is default)</span><br><span class="line">rep -- Represent (the generated link could be presented in hex or dec value)</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"># abbrlink config</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32      #support crc16(default) and crc32</span><br><span class="line">  rep: hex        #support dec(default) and hex</span><br><span class="line">  drafts: false   #(true)Process draft,(false)Do not process draft. false(default) </span><br><span class="line">  # Generate categories from directory-tree</span><br><span class="line">  # depth: the max_depth of directory-tree you want to generate, should &gt; 0</span><br><span class="line">  auto_category:</span><br><span class="line">     enable: true  #true(default)</span><br><span class="line">     depth:        #3(default)</span><br><span class="line">  auto_title: false #enable auto title, it can auto fill the title by path</span><br><span class="line">  auto_date: false #enable auto date, it can auto fill the date by time today</span><br><span class="line">  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.</span><br></pre></td></tr></table></figure><h2 id="Sample"><a href="#Sample" class="headerlink" title="Sample"></a>Sample</h2><p>The generated link will look like the following:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">crc16 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/66c8.html</span><br><span class="line"></span><br><span class="line">crc16 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/65535.html</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">crc32 &amp; hex</span><br><span class="line">https://post.zz173.com/posts/8ddf18fb.html</span><br><span class="line"></span><br><span class="line">crc32 &amp; dec</span><br><span class="line">https://post.zz173.com/posts/1690090958.html</span><br></pre></td></tr></table></figure><h2 id="Limitation"><a href="#Limitation" class="headerlink" title="Limitation"></a>Limitation</h2><p>[fixed] Maximum number of posts is 65535 for crc16. (now, if a abbrlink already exist, it will change another one and try again and again…) </p><h2 id="More-info"><a href="#More-info" class="headerlink" title="More info"></a>More info</h2><p>see <a href="https://post.zz173.com/detail/hexo-abbrlink.html">this</a>(Chinese)</p><h2 id="ThanksFor"><a href="#ThanksFor" class="headerlink" title="ThanksFor"></a>ThanksFor</h2><p><a href="https://github.com/NoahDragon">NoahDragon</a></p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/node_modules/hexo-abbrlink/package.json"/>
+      <url>/node_modules/hexo-abbrlink/package.json</url>
+      
+        <content type="html"><![CDATA[{"name":"hexo-abbrlink","version":"2.2.1","description":"create one and only link for every post for hexo","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git+https://github.com/Rozbo/hexo-abbrlink.git"},"keywords":["hexo","link","permalink","abbrlink"],"author":"Rozbo","license":"MIT","bugs":{"url":"https://github.com/Rozbo/hexo-abbrlink/issues"},"homepage":"https://github.com/Rozbo/hexo-abbrlink#readme","dependencies":{"hexo-front-matter":"^1.0.0","hexo-fs":"^3.1.0"},"__npminstall_done":true,"_from":"hexo-abbrlink@2.2.1","_resolved":"https://registry.npmmirror.com/hexo-abbrlink/-/hexo-abbrlink-2.2.1.tgz"}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/node_modules/hexo-abbrlink/test.js"/>
+      <url>/node_modules/hexo-abbrlink/test.js</url>
+      
+        <content type="html"><![CDATA[var crc = require('./lib/crc16');var other = crc("123");var crcRes=[];crcRes.push(other);console.log(other);console.log(crcRes.indexOf(other));]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/node_modules/hexo-abbrlink/lib/crc16.js"/>
+      <url>/node_modules/hexo-abbrlink/lib/crc16.js</url>
+      
+        <content type="html"><![CDATA['use strict';let deal = function(crc, b) {    return (crc >> 8) ^ CrcTable[(crc & 0xFF) ^ b];};let preDeal=function(data, len) {    var crc = 0;    for (var i = 0; i < len; i++) {        crc = deal(crc, data[i]);    }    return crc;};let CrcTable = new Array(    0x0000, 0xC0C1, 0xC181, 0x0140, 0xC301, 0x03C0, 0x0280, 0xC241,    0xC601, 0x06C0, 0x0780, 0xC741, 0x0500, 0xC5C1, 0xC481, 0x0440,    0xCC01, 0x0CC0, 0x0D80, 0xCD41, 0x0F00, 0xCFC1, 0xCE81, 0x0E40,    0x0A00, 0xCAC1, 0xCB81, 0x0B40, 0xC901, 0x09C0, 0x0880, 0xC841,    0xD801, 0x18C0, 0x1980, 0xD941, 0x1B00, 0xDBC1, 0xDA81, 0x1A40,    0x1E00, 0xDEC1, 0xDF81, 0x1F40, 0xDD01, 0x1DC0, 0x1C80, 0xDC41,    0x1400, 0xD4C1, 0xD581, 0x1540, 0xD701, 0x17C0, 0x1680, 0xD641,    0xD201, 0x12C0, 0x1380, 0xD341, 0x1100, 0xD1C1, 0xD081, 0x1040,    0xF001, 0x30C0, 0x3180, 0xF141, 0x3300, 0xF3C1, 0xF281, 0x3240,    0x3600, 0xF6C1, 0xF781, 0x3740, 0xF501, 0x35C0, 0x3480, 0xF441,    0x3C00, 0xFCC1, 0xFD81, 0x3D40, 0xFF01, 0x3FC0, 0x3E80, 0xFE41,    0xFA01, 0x3AC0, 0x3B80, 0xFB41, 0x3900, 0xF9C1, 0xF881, 0x3840,    0x2800, 0xE8C1, 0xE981, 0x2940, 0xEB01, 0x2BC0, 0x2A80, 0xEA41,    0xEE01, 0x2EC0, 0x2F80, 0xEF41, 0x2D00, 0xEDC1, 0xEC81, 0x2C40,    0xE401, 0x24C0, 0x2580, 0xE541, 0x2700, 0xE7C1, 0xE681, 0x2640,    0x2200, 0xE2C1, 0xE381, 0x2340, 0xE101, 0x21C0, 0x2080, 0xE041,    0xA001, 0x60C0, 0x6180, 0xA141, 0x6300, 0xA3C1, 0xA281, 0x6240,    0x6600, 0xA6C1, 0xA781, 0x6740, 0xA501, 0x65C0, 0x6480, 0xA441,    0x6C00, 0xACC1, 0xAD81, 0x6D40, 0xAF01, 0x6FC0, 0x6E80, 0xAE41,    0xAA01, 0x6AC0, 0x6B80, 0xAB41, 0x6900, 0xA9C1, 0xA881, 0x6840,    0x7800, 0xB8C1, 0xB981, 0x7940, 0xBB01, 0x7BC0, 0x7A80, 0xBA41,    0xBE01, 0x7EC0, 0x7F80, 0xBF41, 0x7D00, 0xBDC1, 0xBC81, 0x7C40,    0xB401, 0x74C0, 0x7580, 0xB541, 0x7700, 0xB7C1, 0xB681, 0x7640,    0x7200, 0xB2C1, 0xB381, 0x7340, 0xB101, 0x71C0, 0x7080, 0xB041,    0x5000, 0x90C1, 0x9181, 0x5140, 0x9301, 0x53C0, 0x5280, 0x9241,    0x9601, 0x56C0, 0x5780, 0x9741, 0x5500, 0x95C1, 0x9481, 0x5440,    0x9C01, 0x5CC0, 0x5D80, 0x9D41, 0x5F00, 0x9FC1, 0x9E81, 0x5E40,    0x5A00, 0x9AC1, 0x9B81, 0x5B40, 0x9901, 0x59C0, 0x5880, 0x9841,    0x8801, 0x48C0, 0x4980, 0x8941, 0x4B00, 0x8BC1, 0x8A81, 0x4A40,    0x4E00, 0x8EC1, 0x8F81, 0x4F40, 0x8D01, 0x4DC0, 0x4C80, 0x8C41,    0x4400, 0x84C1, 0x8581, 0x4540, 0x8701, 0x47C0, 0x4680, 0x8641,    0x8201, 0x42C0, 0x4380, 0x8341, 0x4100, 0x81C1, 0x8081, 0x4040);module.exports = function (str){   var buffer = new Buffer(str);   return preDeal(buffer,buffer.length);}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/node_modules/hexo-abbrlink/lib/crc32.js"/>
+      <url>/node_modules/hexo-abbrlink/lib/crc32.js</url>
+      
+        <content type="html"><![CDATA[/* crc32.js (C) 2014-present SheetJS -- http://sheetjs.com *//* vim: set ts=2: *//*exported CRC32 */'use strict';var CRC32;(function (factory) {/*jshint ignore:start */if(typeof DO_NOT_EXPORT_CRC === 'undefined') {if('object' === typeof exports) {factory(exports);} else if ('function' === typeof define && define.amd) {define(function () {var module = {};factory(module);return module;});} else {factory(CRC32 = {});}} else {factory(CRC32 = {});}/*jshint ignore:end */}(function(CRC32) {CRC32.version = '0.4.1';/* see perf/crc32table.js *//*global Int32Array */function signed_crc_table() {var c = 0, table = new Array(256);for(var n =0; n != 256; ++n){c = n;c = ((c&1) ? (-306674912 ^ (c >>> 1)) : (c >>> 1));c = ((c&1) ? (-306674912 ^ (c >>> 1)) : (c >>> 1));c = ((c&1) ? (-306674912 ^ (c >>> 1)) : (c >>> 1));c = ((c&1) ? (-306674912 ^ (c >>> 1)) : (c >>> 1));c = ((c&1) ? (-306674912 ^ (c >>> 1)) : (c >>> 1));c = ((c&1) ? (-306674912 ^ (c >>> 1)) : (c >>> 1));c = ((c&1) ? (-306674912 ^ (c >>> 1)) : (c >>> 1));c = ((c&1) ? (-306674912 ^ (c >>> 1)) : (c >>> 1));table[n] = c;}return typeof Int32Array !== 'undefined' ? new Int32Array(table) : table;}var T = signed_crc_table();/*global Buffer */var use_buffer = typeof Buffer !== 'undefined';function crc32_bstr(bstr) {if(bstr.length > 32768) if(use_buffer) return crc32_buf_8(new Buffer(bstr));var C = -1, L = bstr.length - 1;for(var i = 0; i < L;) {C = (C>>>8) ^ T[(C^bstr.charCodeAt(i++))&0xFF];C = (C>>>8) ^ T[(C^bstr.charCodeAt(i++))&0xFF];}if(i === L) C = (C>>>8) ^ T[(C ^ bstr.charCodeAt(i))&0xFF];return C ^ -1;}function crc32_buf(buf) {if(buf.length > 10000) return crc32_buf_8(buf);var C = -1, L = buf.length - 3;for(var i = 0; i < L;) {C = (C>>>8) ^ T[(C^buf[i++])&0xFF];C = (C>>>8) ^ T[(C^buf[i++])&0xFF];C = (C>>>8) ^ T[(C^buf[i++])&0xFF];C = (C>>>8) ^ T[(C^buf[i++])&0xFF];}while(i < L+3) C = (C>>>8) ^ T[(C^buf[i++])&0xFF];return C ^ -1;}function crc32_buf_8(buf) {var C = -1, L = buf.length - 7;for(var i = 0; i < L;) {C = (C>>>8) ^ T[(C^buf[i++])&0xFF];C = (C>>>8) ^ T[(C^buf[i++])&0xFF];C = (C>>>8) ^ T[(C^buf[i++])&0xFF];C = (C>>>8) ^ T[(C^buf[i++])&0xFF];C = (C>>>8) ^ T[(C^buf[i++])&0xFF];C = (C>>>8) ^ T[(C^buf[i++])&0xFF];C = (C>>>8) ^ T[(C^buf[i++])&0xFF];C = (C>>>8) ^ T[(C^buf[i++])&0xFF];}while(i < L+7) C = (C>>>8) ^ T[(C^buf[i++])&0xFF];return C ^ -1;}function crc32_str(str) {var C = -1;for(var i = 0, L=str.length, c, d; i < L;) {c = str.charCodeAt(i++);if(c < 0x80) {C = (C>>>8) ^ T[(C ^ c)&0xFF];} else if(c < 0x800) {C = (C>>>8) ^ T[(C ^ (192|((c>>6)&31)))&0xFF];C = (C>>>8) ^ T[(C ^ (128|(c&63)))&0xFF];} else if(c >= 0xD800 && c < 0xE000) {c = (c&1023)+64; d = str.charCodeAt(i++)&1023;C = (C>>>8) ^ T[(C ^ (240|((c>>8)&7)))&0xFF];C = (C>>>8) ^ T[(C ^ (128|((c>>2)&63)))&0xFF];C = (C>>>8) ^ T[(C ^ (128|((d>>6)&15)|((c&3)<<4)))&0xFF];C = (C>>>8) ^ T[(C ^ (128|(d&63)))&0xFF];} else {C = (C>>>8) ^ T[(C ^ (224|((c>>12)&15)))&0xFF];C = (C>>>8) ^ T[(C ^ (128|((c>>6)&63)))&0xFF];C = (C>>>8) ^ T[(C ^ (128|(c&63)))&0xFF];}}return C ^ -1;}CRC32.table = T;CRC32.bstr = crc32_bstr;CRC32.buf = crc32_buf;CRC32.str = crc32_str;}));]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/node_modules/hexo-abbrlink/lib/model.js"/>
+      <url>/node_modules/hexo-abbrlink/lib/model.js</url>
+      
+        <content type="html"><![CDATA['use strict';var crcRes = [];let checKCrc = function(res) {    if (crcRes.indexOf(res) > -1) {        res++;        return checKCrc(res);    } else {        return res;    }}let thisAdd = function(value) {    crcRes.push(value);}exports.add = thisAdd;exports.check = checKCrc;]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/node_modules/hexo-abbrlink/lib/logic.js"/>
+      <url>/node_modules/hexo-abbrlink/lib/logic.js</url>
+      
+        <content type="html"><![CDATA['use strict';var crc16 = require('./crc16');var crc32 = require('./crc32');var model = require('./model');var front = require('hexo-front-matter');var fs = require('hexo-fs');function org_get_abbrlink(data) {    var r = data.content.match(/#\+ABBRLINK:.*\n/);    if (r) {        data.abbrlink = r[0].split(':')[1].trim();    } else {        data.abbrlink = '';    }    return data;}let logic = function (data) {    var log = this.log;    const config = this.config.abbrlink || {};    //+++ Draft processing    var opt_drafts = this.config.abbrlink && this.config.abbrlink.drafts ? this.config.abbrlink.drafts : false;    if (opt_drafts == false) {        if (!this.config.render_drafts && data.source.startsWith('_drafts/')) return data;    }    //+++    if (data.layout == 'post') {        let abbrlink;        if (!/.*\.org/.test(data.source)) {            abbrlink = data.abbrlink;        } else {            abbrlink = org_get_abbrlink(data).abbrlink;        }        if (!abbrlink || config.force) {            var opt_alg = this.config.abbrlink && this.config.abbrlink.alg ? this.config.abbrlink.alg : 'crc16';            var opt_rep = this.config.abbrlink && this.config.abbrlink.rep ? this.config.abbrlink.rep : 'dec';            let res = opt_alg == 'crc32' ? crc32.str(data.title) >>> 0 : crc16(data.title) >>> 0;            //check this abbrlink is already exist then get a different one            abbrlink = model.check(res);            //set abbrlink to hex or dec            abbrlink = opt_rep == 'hex' ? abbrlink.toString(16) : abbrlink;            data.abbrlink = abbrlink;            let postStr;            if (!/.*\.org/.test(data.source)) {                //re parse front matter                var tmpPost = front.parse(data.raw);                //add new generated link                tmpPost.abbrlink = abbrlink;                // ------ auto title ?                if (this.config.abbrlink && this.config.abbrlink.auto_title && !tmpPost.title) {                    // maybe the title is path/to/something.md                    // so we split / first and split . again                    const pathParts = data.source.split('/');                    let last = pathParts[pathParts.length - 1];                    const endPort = last.indexOf('.');                    if (endPort > -1) {                        last = last.substring(0, endPort);                    }                    tmpPost.title = last;                    log.i('Generated: title [%s] for post [ %s ]', tmpPost.title, data.full_source);                }                // ----- auto date ? easy                if (this.config.abbrlink && this.config.abbrlink.auto_date && !tmpPost.date) {                    tmpPost.date = data.date.format('YYYY-MM-DD HH:mm:ss');                    log.i('Generated: date [%s] for post [ %s ]', tmpPost.date, data.full_source);                }                //+++                //From: hexo-auto-category                //see:https://github.com/xu-song/hexo-auto-category                //File: hexo-auto-category\lib\logic.js                var opt_AutoCategoryEnable = config.auto_category && config.auto_category.enable;                var overwrite = config.auto_category && config.auto_category.over_write;                if (opt_AutoCategoryEnable && overwrite) {                    var categories = data.source.split('/');                    var opt_AutoCategoryDepth = config.auto_category.depth || 3;                    var depth = opt_AutoCategoryDepth || categories.length - 2;                    if (categories.length - 2 == 0 || depth == 0) {                        tmpPost.categories = this.config.default_category;                    } else {                        var newCategories = categories.slice(1, 1 + Math.min(depth, categories.length - 2));                        //prevents duplicate file changes                        if (                            !Array.isArray(tmpPost.categories) ||                            !tmpPost.categories.join('_') == newCategories.join('_')                        ) {                            tmpPost.categories = newCategories;                        }                    }                }                //+++                //process post                postStr = front.stringify(tmpPost);                postStr = '---\n' + postStr;                fs.writeFileSync(data.full_source, postStr, 'utf-8');            } else {                postStr = data.raw.split('\n');                postStr.splice(2, 0, '#+ABBRLINK: ' + abbrlink);                fs.writeFileSync(data.full_source, postStr.join('\n'), 'utf-8');            }            if (data.source.startsWith('_drafts/')) {                // is draft //                if (data.title.length == 0)                    log.i('No title found for draft [source/_drafts/%s.md][ %s ]', data.slug, data.title);                log.i('Generate link [%s] for draft [source/_drafts/%s.md][ %s ]', abbrlink, data.slug, data.title);                //+++                //From: hexo-auto-category                //see:https://github.com/xu-song/hexo-auto-category                //File: hexo-auto-category\lib\logic.js                log.i(                    'Generated: categories [%s] for draft [source/_drafts/%s.md][ %s ]',                    tmpPost.categories,                    data.slug,                    data.title                );                //+++            } else {                // is not draft //                if (data.title.length == 0)                    log.i('No title found for post [source/_posts/%s.md][ %s ]', data.slug, data.title);                log.i('Generate link [%s] for post [source/_posts/%s.md][ %s ]', abbrlink, data.slug, data.title);                //+++                //From: hexo-auto-category                //see:https://github.com/xu-song/hexo-auto-category                //File: hexo-auto-category\lib\logic.js                log.i(                    'Generated: categories [%s] for post [source/_posts/%s.md][ %s ]',                    tmpPost.categories,                    data.slug,                    data.title                );                //+++            }        }        model.add(abbrlink);    }    return data;};module.exports = logic;]]></content>
+      
+    </entry>
+    
+    
+  
+</search>
